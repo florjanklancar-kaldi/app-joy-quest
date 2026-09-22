@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useQueryClient, useSuspenseQuery } from "@tanstack/react-query";
 import { createFileRoute } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
@@ -84,7 +83,6 @@ function Index() {
         <div className="flex items-center justify-between">
           <h2 className="text-sm font-medium">Next steps</h2>
           <div className="flex items-center gap-2">
-            <ClickCounterButton />
             <RefreshButton />
           </div>
         </div>
@@ -113,19 +111,6 @@ function Index() {
       </footer>
       </main>
     </>
-  );
-}
-
-function ClickCounterButton() {
-  const [count, setCount] = useState(0);
-  return (
-    <button
-      type="button"
-      onClick={() => setCount((c) => c + 1)}
-      className="inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1 text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
-    >
-      Clicked {count} {count === 1 ? "time" : "times"}
-    </button>
   );
 }
 
