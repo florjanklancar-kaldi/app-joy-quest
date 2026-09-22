@@ -82,7 +82,9 @@ function Index() {
       <section className="mt-10">
         <div className="flex items-center justify-between">
           <h2 className="text-sm font-medium">Next steps</h2>
-          <RefreshButton />
+          <div className="flex items-center gap-2">
+            <RefreshButton />
+          </div>
         </div>
         <ul className="mt-3 divide-y rounded-lg border">
           {tasks.map((task) => (
