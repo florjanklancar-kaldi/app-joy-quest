@@ -60,6 +60,9 @@ function Index() {
             >
               Docs
             </a>
+            <a href="#" className="transition-colors hover:text-foreground">
+              Contact
+            </a>
           </nav>
         </div>
       </header>
