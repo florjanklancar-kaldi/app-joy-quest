@@ -39,7 +39,33 @@ function Index() {
   const { data: tasks } = useSuspenseQuery(tasksQueryOptions());
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-2xl flex-col justify-center px-6 py-16">
+    <>
+      <header className="sticky top-0 z-10 border-b bg-background/80 backdrop-blur">
+        <div className="mx-auto flex h-14 w-full max-w-2xl items-center justify-between px-6">
+          <a href="/" className="flex items-center gap-2 text-sm font-semibold tracking-tight">
+            <span className="grid size-6 place-items-center rounded-md bg-primary text-primary-foreground">
+              <span className="text-[10px] font-bold">TS</span>
+            </span>
+            TanStack Start
+          </a>
+          <nav className="flex items-center gap-4 text-xs text-muted-foreground">
+            <a href="/" className="transition-colors hover:text-foreground">
+              Home
+            </a>
+            <a
+              href="https://tanstack.com/start"
+              target="_blank"
+              rel="noreferrer"
+              className="transition-colors hover:text-foreground"
+            >
+              Docs
+            </a>
+          </nav>
+        </div>
+      </header>
+
+      <main className="mx-auto flex min-h-screen w-full max-w-2xl flex-col justify-center px-6 py-16">
+
       <header>
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
           TanStack Start · TypeScript · TanStack Query
