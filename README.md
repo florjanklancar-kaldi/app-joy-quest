@@ -1,14 +1,18 @@
-# Welcome to your Lovable project
+# Next.js Starter Kit
+
+Create a minimal Next.js application using TypeScript and the App Router. Keep the project clean and minimal. I will connect it to GitHub and continue development locally.
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://app-joy-quest.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/cd467a99-db04-4f4e-a38d-10a5b417cb95).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +24,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
