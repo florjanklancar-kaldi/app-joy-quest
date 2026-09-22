@@ -107,7 +107,8 @@ function Index() {
         <code className="rounded bg-muted px-1.5 py-0.5 font-mono">src/routes</code> —
         every file there becomes a route.
       </footer>
-    </main>
+      </main>
+    </>
   );
 }
 
