@@ -83,7 +83,6 @@ function Index() {
         <div className="flex items-center justify-between">
           <h2 className="text-sm font-medium">Next steps</h2>
           <div className="flex items-center gap-2">
-            <ClickCounterButton />
             <RefreshButton />
           </div>
         </div>
